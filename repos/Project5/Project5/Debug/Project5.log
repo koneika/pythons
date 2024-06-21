@@ -1,0 +1,4 @@
+﻿  Source1.cpp
+c:\users\slava\source\repos\project5\project5\source1.cpp(51): warning C4101: value2: неиспользованная локальная переменная
+c:\users\slava\source\repos\project5\project5\source1.cpp(51): warning C4101: value1: неиспользованная локальная переменная
+  Project5.vcxproj -> C:\Users\slava\source\repos\Project5\Debug\Project5.exe

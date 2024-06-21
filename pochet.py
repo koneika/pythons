@@ -1,0 +1,7 @@
+print("write $")
+a = float(input())
+print("write %")
+b = float(input())
+print((a/100)*(100+b)-a-0.77-0.77)
+print('end')
+input()

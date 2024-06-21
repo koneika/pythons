@@ -1,0 +1,80 @@
+# import pycurl
+# import certifi
+# from io import BytesIO
+
+# print("check the internet")
+
+# # def get_info():
+
+# #     response = requests.get(url)
+
+# import pycurl
+# from io import BytesIO
+
+# def get_source_code(url):
+#     # Создаем объект Curl
+#     c = pycurl.Curl()
+
+#     # Устанавливаем URL для запроса
+#     c.setopt(c.URL, url)
+
+#     # Создаем объект BytesIO для хранения полученных данных
+#     buffer = BytesIO()
+
+#     # Устанавливаем функцию обратного вызова для записи данных в объект BytesIO
+#     c.setopt(c.WRITEDATA, buffer)
+
+#     try:
+#         # Выполняем запрос
+#         c.perform()
+#     except pycurl.error as e:
+#         print("Ошибка при выполнении запроса:", e)
+#         return None
+
+#     # Получаем исходный код страницы
+#     source_code = buffer.getvalue().decode('utf-8')
+
+#     # Закрываем объект Curl
+#     c.close()
+
+#     return source_code
+
+# # Пример использования
+# url = 'https://www.geckoterminal.com/ru/ton/pools/EQCCsJOGdUdSGq0ambJFgSptdHfDPkaQlKlLIKTqtazhhcps'
+# source_code = get_source_code(url)
+# if source_code:
+#     print("Исходный код страницы:\n", source_code)
+
+# #     return response.text
+# # text = requests.get(url).text
+
+
+
+# # with open("info.txt", 'w') as file:
+# #     file.write(text)
+
+
+
+ # heh = True
+        # for i in range(0, len(output)):
+        #     if (output[i] == '$' and heh == True):
+        #         # word = 
+        #         print(output[i-5] + output[i-4] + output[i-3] + output[i-2] + output[i-1])
+        #         heh = False
+        #         time.sleep(1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

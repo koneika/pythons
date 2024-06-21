@@ -1,0 +1,1 @@
+str(message.chat.id)

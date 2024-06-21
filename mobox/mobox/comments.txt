@@ -1,0 +1,8 @@
+while true; do
+    if [ -d ~/storage/shared ]; then
+        break
+    else
+        echo "Storage permission denied"
+    fi
+    sleep 3
+done

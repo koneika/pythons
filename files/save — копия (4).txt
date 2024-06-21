@@ -1,0 +1,6 @@
+12 6 24 ton-fantasy
+21 6 24 cran-gram
+21 6 24 kingy
+0 6 12 TapSwap
+0 6 3 pixel
+0 6 1 bull
